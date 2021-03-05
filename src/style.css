@@ -1,0 +1,155 @@
+body
+{
+	background: silver;
+	margin:0;
+	font-family: calibri;
+}
+
+header h1
+{
+	margin:0;
+}
+
+input,button,a
+{
+	padding: 10px;
+	border:0;
+	box-sizing: border-box;
+	text-decoration: none;
+	outline:0;
+}
+
+header
+{
+	line-height: 10vh;
+	background: black;
+	color:white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header a
+{
+	color:silver;
+}
+header a:hover
+{
+	color: white;
+}
+
+.container
+{
+	height: 80vh;
+	overflow: auto;
+}
+
+footer
+{
+	line-height: 10vh;
+	background: black;
+	color:white;
+	text-align: center;
+}
+
+.wrapper
+{
+	padding: 0 2%;
+}
+
+table
+{
+	box-shadow:0 10px 10px black;
+	width: 100%;
+	background: white;
+	text-align: center;
+}
+thead
+{
+	background: black;
+	color:white;
+}
+
+form button
+{
+	background: black;
+	color:white;
+}
+
+.flex
+{
+	padding: 0.5%;
+	display: flex;
+}
+.flex .item1
+{
+	width: 10%;
+	padding: 0.5%;
+	margin: 0.5%;
+
+}
+.flex .item2
+{
+	width: 60%;
+	padding: 0.5%;
+	margin: 0.5%;
+	
+}
+.flex .scroll
+{
+	height: 60vh;
+	overflow: auto;
+}
+.flex p
+{
+	padding: 10px;
+	margin:2px;
+	background: white;
+	color:black;
+	cursor: move;
+}
+.flex p:hover
+{
+	background: #333;
+	color:white;
+}
+.flex p.active
+{
+	background: black;
+	color:white;
+}
+
+::-webkit-scrollbar
+{
+	width: 2px;
+	background: red;
+}
+
+
+.form
+{
+	width: 30%;
+	padding: 2%;
+	margin:5% auto;
+	border-top: 50px solid #000;
+	box-shadow:0 10px 10px black;
+	background: white;
+}
+.form input
+{
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #000;
+}
+.form button
+{
+	width: 100%;
+	background: black;
+	color:white;
+	margin-bottom: 5px;
+}
+
+.form h1
+{
+	text-align: center;
+}
