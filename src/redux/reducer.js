@@ -1,10 +1,11 @@
+import data from './data'
 const initalState={
-	admin:[],
-	faculty:[],
-	student:[],
-	courses:[],
-	slots:[],
-	batch:[],
+	admin:data.admin,
+	faculty:data.faculty,
+	student:data.student,
+	courses:data.courses,
+	slots:data.slots,
+	batch:data.batch,
 	fid:"",
 	sid:"",
 	cid:"",
@@ -12,7 +13,7 @@ const initalState={
 	dt:"2021-03-06",
 	loggedin:true,
 	role:"admin",
-	user:{id:1,name:"admin",email:"admin@gmail.com",phone:"23456789",password:"admin"}
+	user:{}
 }
 
 const reducer=(state=initalState,action) =>{
